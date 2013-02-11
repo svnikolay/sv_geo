@@ -6,10 +6,10 @@ set :repository, "git@github.com:ssnikolay/deploy_test_app.git"
 # set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-set :user, 'ssnikolay-server'
+set :user, 'root'
 set :domain, '192.168.56.1'
 set :deploy_to, "/var/www/sv_test"
-set :use_sudo, false
+#set :use_sudo, false
 
 role :web, domain                         # Your HTTP server, Apache/etc
 role :app, domain                          # This may be the same as your `Web` server
