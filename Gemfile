@@ -24,6 +24,7 @@ gem 'jquery-rails'
 gem 'slim'
 gem 'simple_form'
 gem 'therubyracer'
+gem 'capistrano'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
