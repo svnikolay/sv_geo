@@ -18,13 +18,6 @@ role :web, domain                         # Your HTTP server, Apache/etc
 role :app, domain                          # This may be the same as your `Web` server
 role :db, domain, :primary => true
 
-#after "deploy:update_code", :bundle_install
-
-desc "install the necessary prerequisites"
-#task :bundle_install, :roles => :app do
-#  run "cd #{release_path} && bundle install"
-#end
-
 
  # This is where Rails migrations will run
 #role :db,  "your slave db-server here"
