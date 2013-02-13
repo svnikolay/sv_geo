@@ -8,20 +8,22 @@ set :repository, "git@github.com:ssnikolay/deploy_test_app.git"
 
 set :user, 'ssnikolay-server'
 set :password, 'password'
-set :domain, '192.168.56.1'
+set :domain, '192.168.56.13'
 set :deploy_to, "/var/www/sv_test"
-set :use_sudo, false
+set :sudo_prompt, 'password'
+
+set :sudo_prompt, 'password'
 
 role :web, domain                         # Your HTTP server, Apache/etc
 role :app, domain                          # This may be the same as your `Web` server
 role :db, domain, :primary => true
 
-after "deploy:update_code", :bundle_install
+#after "deploy:update_code", :bundle_install
 
 desc "install the necessary prerequisites"
-task :bundle_install, :roles => :app do
-  run "cd #{release_path} && bundle install"
-end
+#task :bundle_install, :roles => :app do
+#  run "cd #{release_path} && bundle install"
+#end
 
 
  # This is where Rails migrations will run
