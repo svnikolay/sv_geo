@@ -19,7 +19,7 @@ test:
   timeout: 5000
 
 production:
-  adapter: mysql2
+  adapter: postgresql
   database: sv_geo
   pool: 5
   timeout: 5000
