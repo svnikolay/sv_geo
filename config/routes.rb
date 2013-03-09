@@ -1,7 +1,7 @@
 SvTest::Application.routes.draw do
-  get "geos/new2"
-  resources :geos
-  root :to => 'geos#index'
+  resources :geo_points
+  resources :geo_lines
+  root :to => 'geo_lines#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

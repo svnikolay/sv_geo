@@ -5,7 +5,8 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem "rvm-capistrano"
+#gem "heroku"
 
 
 # Gems used only for assets and not required
@@ -13,7 +14,7 @@ gem 'sqlite3'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
+  gem "twitter-bootstrap-rails"
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
@@ -25,6 +26,23 @@ gem 'slim'
 gem 'simple_form'
 gem 'therubyracer'
 gem 'capistrano'
+
+group :test do
+  gem 'rspec-rails', '2.10.1'
+  gem 'database_cleaner'
+  gem 'fabrication'
+  gem 'faker'
+  gem 'capybara'
+  gem 'launchy'
+end
+
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'mysql2'
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

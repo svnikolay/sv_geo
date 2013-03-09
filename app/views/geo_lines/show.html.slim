@@ -1,0 +1,20 @@
+javascript:
+  $(document).ready(function() {
+    var points_array = #{h @points_array};
+    var delay = #{h @geo_line.delay};
+
+    var geo = new Geo();
+
+      geo.init({
+        center: [55.786764,49.122853],
+        zoom: 14,
+        finishPoint: 'Татарстан Казань Пушкина 30',
+        points_array: points_array,
+        delay: delay
+      });
+      //geo.geoLocationStart();
+      $('#b1').click(function(){ geo.geoLocationShow();});
+  });
+
+button#b1 START SHOW
+div id="map" style="width: 600px; height: 400px"

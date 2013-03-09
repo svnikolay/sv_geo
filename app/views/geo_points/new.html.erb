@@ -1,0 +1,36 @@
+<script>
+    $(document).ready(function() {
+
+      setInterval(getGeo, 5000);
+      function successCallback(position) {
+      //loadArticles( position.coords.latitude, position.coords.longitude );
+      $("#geo_lat")[0].value = position.coords.latitude;
+      $("#geo_lon")[0].value = position.coords.longitude;
+      $('#bt').click();
+
+
+    }
+
+    function errorCallback(error) {
+      alert('Error getting GPS:'+error);
+    }
+
+    function getGeo () {
+      $('body').append('A');
+        if (navigator.geolocation)
+        navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+        else
+        alert('GPS not supported');
+      }
+
+    });
+
+
+
+</script>
+
+<%= form_for @geo, remote: true do |f| %>
+  <%= f.text_field :lat %><br />
+  <%= f.text_field :lon %><br />
+  <%= f.submit id: 'bt' %>
+<% end %>
