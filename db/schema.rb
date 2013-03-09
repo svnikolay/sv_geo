@@ -11,13 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130203092957) do
+ActiveRecord::Schema.define(:version => 20130303080209) do
 
-  create_table "geos", :force => true do |t|
-    t.string   "lat"
-    t.string   "lon"
+  create_table "geo_lines", :force => true do |t|
+    t.string   "name"
+    t.integer  "delay"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "geo_points", :force => true do |t|
+    t.string   "lat"
+    t.string   "lon"
+    t.integer  "geo_line_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
 end

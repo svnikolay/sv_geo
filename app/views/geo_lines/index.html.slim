@@ -1,0 +1,5 @@
+= link_to 'Создать путь', new_geo_line_path, class: 'btn btn-success'
+ul
+- @geo_lines.each do |geo_line|
+  li
+    = link_to geo_line.name, geo_line
