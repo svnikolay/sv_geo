@@ -11,7 +11,6 @@ class GeoLinesController < ApplicationController
 
 
   def create
-
     respond_to do |format|
       format.js  { @geo = GeoLine.create params[:geo_line] }
       format.html { redirect_to root_path, notice: 'Успешно создан' }
@@ -22,9 +21,5 @@ class GeoLinesController < ApplicationController
   def show
     @geo_line = GeoLine.find params[:id]
     @points_array = @geo_line.array_with_points_coordinate
-  end
-
-  def string_to_array string
-    string[1..-2].split(',').collect!{|n| n.to_s}
   end
 end

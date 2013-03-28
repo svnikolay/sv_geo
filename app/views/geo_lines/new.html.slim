@@ -40,9 +40,8 @@ br
 
 
 = simple_form_for @geo_point, html: {id: 'geo_point_form'}, remote: true do |f|
-  /= f.hidden_field :lat, name: "geo_point[lat][]"
-  /= f.hidden_field :lon, name: "geo_point[lon][]"
   = f.hidden_field :geo_line_id
+  #coordinates
 
 = simple_form_for @geo_line do |f|
   = f.button :submit, 'STOP', id: 'stop', class: 'btn btn-primary '
