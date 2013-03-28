@@ -11,8 +11,7 @@ class GeoLinesController < ApplicationController
 
 
   def create
-    #geo_point_ids = params[:geo_line][:geo_point_ids]
-    #params[:geo_line][:geo_point_ids] = string_to_array geo_point_ids
+
     respond_to do |format|
       format.js  { @geo = GeoLine.create params[:geo_line] }
       format.html { redirect_to root_path, notice: 'Успешно создан' }

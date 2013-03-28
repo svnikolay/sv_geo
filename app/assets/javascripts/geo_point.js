@@ -1,15 +1,21 @@
 function GeoPoint() {
 
-  var form_dom, this_delay;
+  var form_dom, this_delay, post_delay, interval, points_count = 0;
 
-  this.init = function(delay, form_id){
+  this.init = function(delay, form_id, form_post_delay){
     this_delay = delay;
     form_dom = form_id
+    post_delay = form_post_delay
   };
 
   this.startGeoNavigation = function(){
-    setInterval(createGeoPoint, this_delay);
-    setInterval(progressBar, 1000);
+    iterval = setInterval(createGeoPoint, this_delay);
+    interval_progress_bar = setInterval(progressBar, 1000);
+  }
+
+  this.pauseGeoNavigation = function(){
+    clearInterval(iterval)
+    clearInterval(interval_progress_bar)
   }
 
 
@@ -22,15 +28,25 @@ function GeoPoint() {
 
 
   function successCallback(position) {
-    $("#geo_point_lat").val(position.coords.latitude);
-    $("#geo_point_lon").val(position.coords.longitude);
-    $(form_dom).submit();
+    addNewInputFields(position.coords.latitude, position.coords.longitude);
+    points_count++;
+    trySubmitForm()
   }
 
   function errorCallback(error) {
     alert('Error getting GPS:'+error);
   }
 
+
+  function addNewInputFields(lat, lon){
+    $(form_dom).append('<input id="geo_point_lat" type="hidden" name="geo_point[lat][]" value='+lat+'>')
+    $(form_dom).append('<input id="geo_point_lon" type="hidden" name="geo_point[lon][]" value='+lon+'>')
+  }
+
+  function trySubmitForm(){
+    if((points_count*delay) % post_delay == 0)
+      $(form_dom).submit();
+  }
 
   function progressBar(){
     now_width = parseInt($('.bar').width())

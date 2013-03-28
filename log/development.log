@@ -48163,3 +48163,2463 @@ Served asset /application.js - 304 Not Modified (2ms)
 
 Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 11:11:53 +0400
 Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:18:56 +0400
+Connecting to database specified by database.yml
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (38.7ms)
+Compiled twitter-bootstrap-static/bootstrap.css  (52ms)  (pid 8917)
+Compiled twitter-bootstrap-static/fontawesome.css  (42ms)  (pid 8917)
+Compiled bootstrap_and_overrides.css  (102ms)  (pid 8917)
+Compiled application.css  (106ms)  (pid 8917)
+Compiled jquery.js  (4ms)  (pid 8917)
+Compiled jquery_ujs.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 8917)
+Compiled twitter/bootstrap.js  (44ms)  (pid 8917)
+Compiled geo_line.js  (0ms)  (pid 8917)
+Compiled geo_point.js  (0ms)  (pid 8917)
+Compiled application.js  (92ms)  (pid 8917)
+Completed 200 OK in 360ms (Views: 334.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /application.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /geos.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /jquery.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /geo_line.js - 200 OK (3ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /geo_point.js - 200 OK (1ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /geos.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:18:57 +0400
+Served asset /application.js - 304 Not Modified (56ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (10.5ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /geos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:16 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:17 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:17 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:17 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:17 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:17 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:17 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:17 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:20:17 +0400
+Served asset /application.js - 304 Not Modified (34ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (11.2ms)
+Compiled geo_point.js  (0ms)  (pid 8917)
+Compiled application.js  (4ms)  (pid 8917)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /geos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /geo_point.js - 200 OK (1ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:32 +0400
+Served asset /application.js - 304 Not Modified (56ms)
+
+
+Started POST "/geo_lines" for 127.0.0.1 at 2013-03-28 12:31:40 +0400
+Processing by GeoLinesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_line"=>{"delay"=>"2000"}, "commit"=>"START"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "geo_lines" ("created_at", "delay", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 08:31:40 UTC +00:00], ["delay", 2000], ["name", nil], ["updated_at", Thu, 28 Mar 2013 08:31:40 UTC +00:00]]
+  [1m[36m (196.7ms)[0m  [1mcommit transaction[0m
+  Rendered geo_lines/create.js.erb (0.6ms)
+Completed 200 OK in 207ms (Views: 3.9ms | ActiveRecord: 199.8ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (3.9ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /geos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:50 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:51 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:51 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:51 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:51 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:51 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:51 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:51 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:31:51 +0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/geo_lines" for 127.0.0.1 at 2013-03-28 12:32:05 +0400
+Processing by GeoLinesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_line"=>{"delay"=>"5000"}, "commit"=>"START"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "geo_lines" ("created_at", "delay", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 08:32:05 UTC +00:00], ["delay", 5000], ["name", nil], ["updated_at", Thu, 28 Mar 2013 08:32:05 UTC +00:00]]
+  [1m[35m (227.8ms)[0m  commit transaction
+  Rendered geo_lines/create.js.erb (0.1ms)
+Completed 200 OK in 234ms (Views: 3.3ms | ActiveRecord: 228.3ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:32:11 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (4.6ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /geos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:12 +0400
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (13.1ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /geos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:30 +0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (13.7ms)
+Completed 200 OK in 29ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /geos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:32:57 +0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (4.8ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /geos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:07 +0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:33:34 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (11.5ms)
+Completed 200 OK in 25ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /geos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:33:35 +0400
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/geo_lines" for 127.0.0.1 at 2013-03-28 12:33:44 +0400
+Processing by GeoLinesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_line"=>{"delay"=>"5000"}, "commit"=>"START"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "geo_lines" ("created_at", "delay", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 08:33:44 UTC +00:00], ["delay", 5000], ["name", nil], ["updated_at", Thu, 28 Mar 2013 08:33:44 UTC +00:00]]
+  [1m[36m (141.3ms)[0m  [1mcommit transaction[0m
+  Rendered geo_lines/create.js.erb (0.1ms)
+Completed 200 OK in 152ms (Views: 5.6ms | ActiveRecord: 142.2ms)
+
+
+Started POST "/geo_points" for 127.0.0.1 at 2013-03-28 12:33:51 +0400
+Processing by GeoPointsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_point"=>{"lat"=>["", "55.794941"], "lon"=>["", "49.105044"], "geo_line_id"=>"61"}}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 08:33:51 UTC +00:00], ["geo_line_id", 61], ["lat", ["", "55.794941"]], ["lon", ["", "49.105044"]], ["updated_at", Thu, 28 Mar 2013 08:33:51 UTC +00:00]]
+  [1m[35m (151.3ms)[0m  commit transaction
+  [1m[36mGeoLine Load (0.2ms)[0m  [1mSELECT "geo_lines".* FROM "geo_lines" WHERE "geo_lines"."id" = 61 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "geo_points" WHERE "geo_points"."geo_line_id" = 61
+  Rendered geo_points/create.js.erb (0.4ms)
+Completed 200 OK in 181ms (Views: 2.6ms | ActiveRecord: 152.5ms)
+
+
+Started POST "/geo_points" for 127.0.0.1 at 2013-03-28 12:33:56 +0400
+Processing by GeoPointsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_point"=>{"lat"=>["", "55.794941", "55.794941"], "lon"=>["", "49.105044", "49.105044"], "geo_line_id"=>"61"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 08:33:56 UTC +00:00], ["geo_line_id", 61], ["lat", ["", "55.794941", "55.794941"]], ["lon", ["", "49.105044", "49.105044"]], ["updated_at", Thu, 28 Mar 2013 08:33:56 UTC +00:00]]
+  [1m[36m (162.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mGeoLine Load (0.4ms)[0m  SELECT "geo_lines".* FROM "geo_lines" WHERE "geo_lines"."id" = 61 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "geo_points" WHERE "geo_points"."geo_line_id" = 61[0m
+  Rendered geo_points/create.js.erb (0.1ms)
+Completed 200 OK in 177ms (Views: 6.8ms | ActiveRecord: 163.7ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (4.7ms)
+Completed 200 OK in 47ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /geos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:01 +0400
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (4.7ms)
+Compiled geo_point.js  (0ms)  (pid 8917)
+Compiled application.js  (4ms)  (pid 8917)
+Completed 200 OK in 82ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /geos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /geo_point.js - 200 OK (1ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:34:13 +0400
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:37:52 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (3.1ms)
+Completed 200 OK in 47ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /geos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:37:53 +0400
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/geo_lines" for 127.0.0.1 at 2013-03-28 12:38:02 +0400
+Processing by GeoLinesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_line"=>{"delay"=>"3000"}, "commit"=>"START"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "geo_lines" ("created_at", "delay", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 08:38:02 UTC +00:00], ["delay", 3000], ["name", nil], ["updated_at", Thu, 28 Mar 2013 08:38:02 UTC +00:00]]
+  [1m[35m (116.2ms)[0m  commit transaction
+  Rendered geo_lines/create.js.erb (0.1ms)
+Completed 200 OK in 122ms (Views: 3.4ms | ActiveRecord: 116.5ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (3.4ms)
+Completed 200 OK in 20ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /geos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:38:41 +0400
+Served asset /application.js - 304 Not Modified (35ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:39:27 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (10.6ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /geos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:39:28 +0400
+Served asset /application.js - 304 Not Modified (32ms)
+
+
+Started POST "/geo_lines" for 127.0.0.1 at 2013-03-28 12:39:34 +0400
+Processing by GeoLinesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_line"=>{"delay"=>"3000"}, "commit"=>"START"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "geo_lines" ("created_at", "delay", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 08:39:34 UTC +00:00], ["delay", 3000], ["name", nil], ["updated_at", Thu, 28 Mar 2013 08:39:34 UTC +00:00]]
+  [1m[36m (140.9ms)[0m  [1mcommit transaction[0m
+  Rendered geo_lines/create.js.erb (0.1ms)
+Completed 200 OK in 146ms (Views: 3.1ms | ActiveRecord: 141.3ms)
+
+
+Started POST "/geo_points" for 127.0.0.1 at 2013-03-28 12:39:46 +0400
+Processing by GeoPointsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_point"=>{"lat"=>["", "55.794941", "55.794941", "55.794941"], "lon"=>["", "49.105044", "49.105044", "49.105044"], "geo_line_id"=>"63"}, "commit"=>"Create Geo point"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 08:39:46 UTC +00:00], ["geo_line_id", 63], ["lat", ["", "55.794941", "55.794941", "55.794941"]], ["lon", ["", "49.105044", "49.105044", "49.105044"]], ["updated_at", Thu, 28 Mar 2013 08:39:46 UTC +00:00]]
+  [1m[35m (128.4ms)[0m  commit transaction
+  [1m[36mGeoLine Load (0.2ms)[0m  [1mSELECT "geo_lines".* FROM "geo_lines" WHERE "geo_lines"."id" = 63 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "geo_points" WHERE "geo_points"."geo_line_id" = 63
+  Rendered geo_points/create.js.erb (0.0ms)
+Completed 200 OK in 137ms (Views: 2.8ms | ActiveRecord: 130.1ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (3.8ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /geos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:40:12 +0400
+Served asset /application.js - 304 Not Modified (32ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 12:50:10 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (10.0ms)
+Compiled geo_point.js  (0ms)  (pid 8917)
+Compiled application.js  (4ms)  (pid 8917)
+Completed 200 OK in 88ms (Views: 86.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /geos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /geo_line.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /geo_point.js - 200 OK (6ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /application.js - 304 Not Modified (53ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 12:50:11 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started POST "/geo_lines" for 127.0.0.1 at 2013-03-28 12:50:18 +0400
+Processing by GeoLinesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_line"=>{"delay"=>"3000"}, "commit"=>"START"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "geo_lines" ("created_at", "delay", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 08:50:18 UTC +00:00], ["delay", 3000], ["name", nil], ["updated_at", Thu, 28 Mar 2013 08:50:18 UTC +00:00]]
+  [1m[36m (179.0ms)[0m  [1mcommit transaction[0m
+  Rendered geo_lines/create.js.erb (0.1ms)
+Completed 200 OK in 188ms (Views: 6.2ms | ActiveRecord: 179.3ms)
+
+
+Started POST "/geo_points" for 127.0.0.1 at 2013-03-28 12:50:43 +0400
+Processing by GeoPointsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_point"=>{"lat"=>["", "55.794941", "55.794941", "55.794941", "55.794941"], "lon"=>["", "49.105044", "49.105044", "49.105044", "49.105044"], "geo_line_id"=>"64"}, "commit"=>"Create Geo point"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 08:50:43 UTC +00:00], ["geo_line_id", 64], ["lat", ["", "55.794941", "55.794941", "55.794941", "55.794941"]], ["lon", ["", "49.105044", "49.105044", "49.105044", "49.105044"]], ["updated_at", Thu, 28 Mar 2013 08:50:43 UTC +00:00]]
+  [1m[35m (254.4ms)[0m  commit transaction
+  [1m[36mGeoLine Load (0.5ms)[0m  [1mSELECT "geo_lines".* FROM "geo_lines" WHERE "geo_lines"."id" = 64 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "geo_points" WHERE "geo_points"."geo_line_id" = 64
+  Rendered geo_points/create.js.erb (0.1ms)
+Completed 200 OK in 269ms (Views: 6.5ms | ActiveRecord: 256.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (8.1ms)
+Completed 200 OK in 34ms (Views: 21.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /geos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 13:06:50 +0400
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/geo_lines" for 127.0.0.1 at 2013-03-28 13:06:59 +0400
+Processing by GeoLinesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_line"=>{"delay"=>"3000"}, "commit"=>"START"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "geo_lines" ("created_at", "delay", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 09:06:59 UTC +00:00], ["delay", 3000], ["name", nil], ["updated_at", Thu, 28 Mar 2013 09:06:59 UTC +00:00]]
+  [1m[36m (224.6ms)[0m  [1mcommit transaction[0m
+  Rendered geo_lines/create.js.erb (0.1ms)
+Completed 200 OK in 233ms (Views: 4.5ms | ActiveRecord: 225.0ms)
+
+
+Started POST "/geo_points" for 127.0.0.1 at 2013-03-28 13:07:14 +0400
+Processing by GeoPointsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_point"=>{"geo_line_id"=>"65", "lat"=>["55.794941", "55.794941", "55.794941"], "lon"=>["49.105044", "49.105044", "49.105044"]}, "commit"=>"Create Geo point"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 09:07:14 UTC +00:00], ["geo_line_id", 65], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:07:14 UTC +00:00]]
+  [1m[35m (133.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 09:07:14 UTC +00:00], ["geo_line_id", 65], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:07:14 UTC +00:00]]
+  [1m[36m (127.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 09:07:14 UTC +00:00], ["geo_line_id", 65], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:07:14 UTC +00:00]]
+  [1m[35m (119.1ms)[0m  commit transaction
+Completed 500 Internal Server Error in 400ms
+
+NameError (undefined local variable or method `geo_point' for #<GeoPointsController:0xb5bd54d8>):
+  app/controllers/geo_points_controller.rb:12:in `block (2 levels) in create'
+  app/controllers/geo_points_controller.rb:10:in `create'
+
+
+  Rendered /home/ssnikolay/.rvm/gems/ruby-2.0.0-p0@sv_test/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/ssnikolay/.rvm/gems/ruby-2.0.0-p0@sv_test/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/ssnikolay/.rvm/gems/ruby-2.0.0-p0@sv_test/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.8ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (5.5ms)
+Completed 200 OK in 35ms (Views: 19.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /geos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 13:09:44 +0400
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/geo_lines" for 127.0.0.1 at 2013-03-28 13:09:58 +0400
+Processing by GeoLinesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_line"=>{"delay"=>"3000"}, "commit"=>"START"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "geo_lines" ("created_at", "delay", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 09:09:58 UTC +00:00], ["delay", 3000], ["name", nil], ["updated_at", Thu, 28 Mar 2013 09:09:58 UTC +00:00]]
+  [1m[36m (198.8ms)[0m  [1mcommit transaction[0m
+  Rendered geo_lines/create.js.erb (0.2ms)
+Completed 200 OK in 207ms (Views: 3.6ms | ActiveRecord: 199.3ms)
+
+
+Started POST "/geo_points" for 127.0.0.1 at 2013-03-28 13:10:12 +0400
+Processing by GeoPointsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_point"=>{"geo_line_id"=>"66", "lat"=>["55.794941", "55.794941", "55.794941"], "lon"=>["49.105044", "49.105044", "49.105044"]}, "commit"=>"Create Geo point"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 09:10:12 UTC +00:00], ["geo_line_id", 66], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:10:12 UTC +00:00]]
+  [1m[35m (130.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 09:10:12 UTC +00:00], ["geo_line_id", 66], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:10:12 UTC +00:00]]
+  [1m[36m (116.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 09:10:12 UTC +00:00], ["geo_line_id", 66], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:10:12 UTC +00:00]]
+  [1m[35m (119.7ms)[0m  commit transaction
+  [1m[36mGeoLine Load (0.5ms)[0m  [1mSELECT "geo_lines".* FROM "geo_lines" WHERE "geo_lines"."id" = ? LIMIT 1[0m  [["id", "66"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "geo_points" WHERE "geo_points"."geo_line_id" = 66
+  Rendered geo_points/create.js.erb (0.1ms)
+Completed 200 OK in 395ms (Views: 7.2ms | ActiveRecord: 369.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 13:20:12 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (10.6ms)
+Compiled geo_point.js  (0ms)  (pid 8917)
+Compiled application.js  (4ms)  (pid 8917)
+Completed 200 OK in 88ms (Views: 87.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /geos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /geo_point.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:13 +0400
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started POST "/geo_lines" for 127.0.0.1 at 2013-03-28 13:20:29 +0400
+Processing by GeoLinesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_line"=>{"delay"=>"3000"}, "commit"=>"START"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "geo_lines" ("created_at", "delay", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 09:20:29 UTC +00:00], ["delay", 3000], ["name", nil], ["updated_at", Thu, 28 Mar 2013 09:20:29 UTC +00:00]]
+  [1m[36m (195.1ms)[0m  [1mcommit transaction[0m
+  Rendered geo_lines/create.js.erb (0.2ms)
+Completed 200 OK in 200ms (Views: 3.1ms | ActiveRecord: 195.4ms)
+
+
+Started POST "/geo_points" for 127.0.0.1 at 2013-03-28 13:20:39 +0400
+Processing by GeoPointsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_point"=>{"geo_line_id"=>"67", "lat"=>["55.794941", "55.794941", "55.794941"], "lon"=>["49.105044", "49.105044", "49.105044"]}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 09:20:39 UTC +00:00], ["geo_line_id", 67], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:20:39 UTC +00:00]]
+  [1m[35m (130.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 09:20:39 UTC +00:00], ["geo_line_id", 67], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:20:39 UTC +00:00]]
+  [1m[36m (121.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 09:20:39 UTC +00:00], ["geo_line_id", 67], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:20:39 UTC +00:00]]
+  [1m[35m (121.8ms)[0m  commit transaction
+  [1m[36mGeoLine Load (0.2ms)[0m  [1mSELECT "geo_lines".* FROM "geo_lines" WHERE "geo_lines"."id" = ? LIMIT 1[0m  [["id", "67"]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "geo_points" WHERE "geo_points"."geo_line_id" = 67
+  Rendered geo_points/create.js.erb (0.0ms)
+Completed 200 OK in 389ms (Views: 4.7ms | ActiveRecord: 375.0ms)
+
+
+Started POST "/geo_points" for 127.0.0.1 at 2013-03-28 13:20:48 +0400
+Processing by GeoPointsController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWzVCCfsPNwV5HzExadUy6HTbIzdbYes9yo+5moDpJc=", "geo_point"=>{"geo_line_id"=>"67", "lat"=>["55.794941", "55.794941", "55.794941", "55.794941", "55.794941", "55.794941"], "lon"=>["49.105044", "49.105044", "49.105044", "49.105044", "49.105044", "49.105044"]}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 09:20:48 UTC +00:00], ["geo_line_id", 67], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:20:48 UTC +00:00]]
+  [1m[36m (129.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 09:20:48 UTC +00:00], ["geo_line_id", 67], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:20:48 UTC +00:00]]
+  [1m[35m (147.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 09:20:48 UTC +00:00], ["geo_line_id", 67], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:20:48 UTC +00:00]]
+  [1m[36m (127.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 09:20:48 UTC +00:00], ["geo_line_id", 67], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:20:48 UTC +00:00]]
+  [1m[35m (120.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Thu, 28 Mar 2013 09:20:48 UTC +00:00], ["geo_line_id", 67], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:20:48 UTC +00:00]]
+  [1m[36m (131.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "geo_points" ("created_at", "geo_line_id", "lat", "lon", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 28 Mar 2013 09:20:49 UTC +00:00], ["geo_line_id", 67], ["lat", "55.794941"], ["lon", "49.105044"], ["updated_at", Thu, 28 Mar 2013 09:20:49 UTC +00:00]]
+  [1m[35m (121.2ms)[0m  commit transaction
+  [1m[36mGeoLine Load (0.1ms)[0m  [1mSELECT "geo_lines".* FROM "geo_lines" WHERE "geo_lines"."id" = ? LIMIT 1[0m  [["id", "67"]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "geo_points" WHERE "geo_points"."geo_line_id" = 67
+  Rendered geo_points/create.js.erb (0.0ms)
+Completed 200 OK in 796ms (Views: 2.7ms | ActiveRecord: 779.5ms)
+
+
+Started GET "/geo_lines/new" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Processing by GeoLinesController#new as HTML
+  Rendered geo_lines/new.html.slim within layouts/application (10.7ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /application.css - 304 Not Modified (47ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/geos.css?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /geos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_line.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /geo_line.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geo_point.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /geo_point.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/geos.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /geos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-28 13:20:50 +0400
+Served asset /application.js - 304 Not Modified (2ms)
