@@ -20,6 +20,6 @@ class GeoLinesController < ApplicationController
 
   def show
     @geo_line = GeoLine.find params[:id]
-    @points_array = @geo_line.array_with_points_coordinate
+    @points_array = @geo_line.geo_points_coordinates
   end
 end

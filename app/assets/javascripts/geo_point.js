@@ -40,8 +40,8 @@ function GeoPoint() {
 
 
   function addNewInputFields(lat, lon){
-    coordinates.append('<input id="geo_point_lat" type="hidden" name="geo_point[lat][]" value='+lat+'>')
-    coordinates.append('<input id="geo_point_lon" type="hidden" name="geo_point[lon][]" value='+lon+'>')
+    coordinates_block.append('<input id="geo_point_lat" type="hidden" name="geo_point[lat][]" value='+lat+'>')
+    coordinates_block.append('<input id="geo_point_lon" type="hidden" name="geo_point[lon][]" value='+lon+'>')
   }
 
   function trySubmitForm(){
