@@ -2,7 +2,8 @@ javascript:
   $(document).ready(function() {
     geo_point = new GeoPoint();
     $('#stop').hide();
-    array_point_id = [];
+    $('#restart').hide();
+    $('#pause').hide();
 
     $('#start').click(function(){
       delay = $('#geo_line_delay').val();
@@ -11,15 +12,23 @@ javascript:
       geo_point.init(delay, '#geo_point_form', 9000);
       geo_point.startGeoNavigation();
 
-      $("#delay").hide()
-      $('#start').hide();
       $('#stop').show();
+      $('#start').hide();
+      $('#pause').show();
 
     });
 
     $('#pause').click(function(){
       geo_point.pauseGeoNavigation()
+      $('#pause').hide();
+      $('#restart').show();
     })
+
+    $('#restart').click(function(){
+      geo_point.startGeoNavigation();
+      $('#pause').show();
+      $('#restart').hide();
+    });
   });
 
 
@@ -39,6 +48,8 @@ br
   = f.button :submit, 'STOP', id: 'stop', class: 'btn btn-primary '
 
 button#pause.btn PAUSE
+button#restart.btn RESTART
+
 div class="progress progress-striped" style="width: 300px;"
   div class="bar"
 
