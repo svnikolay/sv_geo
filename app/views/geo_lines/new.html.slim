@@ -1,49 +1,38 @@
 javascript:
   $(document).ready(function() {
-    geo_create = new GeoCreate();
+    geo_point = new GeoPoint();
     $('#stop').hide();
     array_point_id = [];
 
     $('#start').click(function(){
-      delay = $('#delay')[0].value;
-
+      delay = $('#delay').val();
       delay = parseInt(delay);
-      geo_create.init(delay, '#geo_form');
 
-      geo_create.startGeo();
+      geo_point.init(delay, '#geo_point_form');
+      geo_point.startGeoNavigation();
 
-      $("#delay").attr('disabled', true);
-      $('#geo_line_delay')[0].value = delay
+      $("#delay").hide()
       $('#start').hide();
       $('#stop').show();
 
     });
-
-    $('#stop').click(function(){
-      $('#geo_line_geo_point_ids')[0].value = "[" + array_point_id + "]"
-    })
-
   });
 
 
 
-p Время между GPS запросами(мс):
-= text_field_tag :delay, '2000'
 br
 = simple_form_for @geo_line, remote: true do |f|
-  = f.hidden_field :delay
+  = f.input :delay, label: 'Время между GPS запросами(мс)', id: 'delay'
   = f.button :submit, 'START', id: 'start', class: 'btn btn-primary '
-/= link_to 'START', {action: 'create', controller:'geo_lines', method: 'post', remote: true}, {id: 'start', class: 'btn btn-success'}
 
 
-= simple_form_for @geo_point, html: {id: 'geo_form'}, remote: true do |f|
+= simple_form_for @geo_point, html: {id: 'geo_point_form'}, remote: true do |f|
   = f.hidden_field :lat
   = f.hidden_field :lon
   = f.hidden_field :geo_line_id
   = f.button :submit, hidden: true
 
 = simple_form_for @geo_line do |f|
-  /= f.hidden_field :geo_point_ids
   = f.button :submit, 'STOP', id: 'stop', class: 'btn btn-primary '
 div class="progress progress-striped" style="width: 300px;"
   div class="bar"

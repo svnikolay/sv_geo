@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-environment_id="ruby-1.9.3-p194@sv_test"
+environment_id="ruby-2.0.0-p0@sv_test"
 
 rvm_trust_rvmrcs_flag=1
 
