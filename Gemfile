@@ -6,7 +6,8 @@ gem 'rails', '3.2.11'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem "rvm-capistrano"
-#gem "heroku"
+gem "heroku"
+gem "taps"
 
 
 # Gems used only for assets and not required

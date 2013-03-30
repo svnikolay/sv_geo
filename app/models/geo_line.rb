@@ -4,12 +4,20 @@ class GeoLine < ActiveRecord::Base
   has_many :geo_points
 
   def geo_points_coordinates
-    geo_points.select('lat, lon').collect{ |geo|[geo.lat.to_f, geo.lon.to_f] }
+    objects_to_array(geo_points)
   end
 
   def part_coordinates_of_geo_points(time)
-    time_begin = time - 1.minute
+    #time = geo_points.last.created_at #!!!
+
+    time_begin = time - 0.3.minute
     time_end = time
-    geo_points.where("created_at >= :time_begin AND created_at <= :time_end", time_begin: time_begin, time_end: time_end)
+    part_geo_points = geo_points.where("created_at >= :time_begin AND created_at <= :time_end", time_begin: time_begin, time_end: time_end)
+
+    objects_to_array(part_geo_points)
+  end
+
+  def objects_to_array(geo_points)
+    geo_points.select('lat, lon').collect{ |geo|[geo.lat.to_f, geo.lon.to_f] }
   end
 end

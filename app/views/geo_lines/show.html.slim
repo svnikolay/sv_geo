@@ -2,18 +2,24 @@ javascript:
   $(document).ready(function() {
     var points_array = #{h @points_array};
     var delay = #{h @geo_line.delay};
+    var line_id = #{h @id}
 
-    var geo = new GeoLine();
+    var geo_line = new GeoLine();
 
-      geo.init({
-        center: [55.786764,49.122853],
-        zoom: 14,
-        finishPoint: 'Татарстан Казань Пушкина 30',
-        points_array: points_array,
-        delay: delay
-      });
-      //geo.geoLocationStart();
-      $('#b1').click(function(){ geo.geoLocationShow();});
+    geo_line.init({
+      center: [55.786764,49.122853],
+      zoom: 14,
+      finishPoint: 'Татарстан Казань Пушкина 30',
+      points_array: points_array,
+      delay: delay,
+      url_points: line_id
+    });
+
+
+
+    $('#b1').click(function(){
+      geo_line.geoLocationShow();
+    });
   });
 
 button#b1 START SHOW
