@@ -7,9 +7,11 @@ javascript:
 
     $('#start').click(function(){
       delay = $('#geo_line_delay').val();
+      step_of_post = $('#geo_line_step_of_post').val();
       delay = parseInt(delay);
+      step_of_post = parseInt(step_of_post)
 
-      geo_point.init(delay, '#geo_point_form', 10000);
+      geo_point.init(delay, '#geo_point_form', step_of_post);
       geo_point.startGeoNavigation();
 
       $('#stop').show();
@@ -36,6 +38,7 @@ javascript:
 br
 = simple_form_for @geo_line, remote: true do |f|
   = f.input :delay, label: 'Время между GPS запросами(мс)'
+  = f.input :step_of_post, label: 'Время между пост запросами'
   = f.button :submit, 'START', id: 'start', class: 'btn btn-primary '
 
 
@@ -44,6 +47,7 @@ br
   #coordinates
 
 = simple_form_for @geo_line do |f|
+  = f.hidden_field :id
   = f.button :submit, 'STOP', id: 'stop', class: 'btn btn-primary '
 
 button#pause.btn PAUSE

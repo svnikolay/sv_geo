@@ -11,21 +11,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130303080209) do
+ActiveRecord::Schema.define(:version => 20130331110404) do
 
   create_table "geo_lines", :force => true do |t|
-    t.string   "name"
-    t.integer  "delay"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string    "name"
+    t.integer   "delay"
+    t.timestamp "created_at",                      :null => false
+    t.timestamp "updated_at",                      :null => false
+    t.boolean   "end_of_line",  :default => false
+    t.integer   "step_of_post"
   end
 
   create_table "geo_points", :force => true do |t|
-    t.string   "lat"
-    t.string   "lon"
-    t.integer  "geo_line_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.string    "lat"
+    t.string    "lon"
+    t.integer   "geo_line_id"
+    t.timestamp "created_at",  :null => false
+    t.timestamp "updated_at",  :null => false
   end
 
 end

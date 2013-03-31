@@ -1,8 +1,12 @@
+script src="http://api-maps.yandex.ru/2.0-stable/?load=package.full&lang=ru-RU" type="text/javascript"
 javascript:
-  $(document).ready(function() {
+  $(document).ready(function(){
     var points_array = #{h @points_array};
-    var delay = #{h @geo_line.delay};
-    var line_id = #{h @id}
+    var delay = #{h @delay};
+    var url = "#{h @url}";
+    var end_of_line = #{h @end_of_line};
+    var step_of_post = #{h @step_of_post}
+    console.log("#{h @part_geo_points.pluck(:id)}")
 
     var geo_line = new GeoLine();
 
@@ -12,7 +16,12 @@ javascript:
       finishPoint: 'Татарстан Казань Пушкина 30',
       points_array: points_array,
       delay: delay,
-      url_points: line_id
+      url_points: url,
+      end_of_line: end_of_line,
+      step_of_post: step_of_post,
+      finishCallback: function(){
+        alert("stop!")
+      }
     });
 
 
@@ -20,7 +29,17 @@ javascript:
     $('#b1').click(function(){
       geo_line.geoLocationShow();
     });
+
+    $('#b2').click(function(){
+      geo_line.geoLocationPause();
+    });
+
+    $('#b3').click(function(){
+      geo_line.geoLocationRestart();
+    });
   });
 
 button#b1 START SHOW
+button#b2 PAUSE SHOW
+button#b3 RESTART SHOW
 div id="map" style="width: 600px; height: 400px"

@@ -2,7 +2,7 @@ function GeoLine(){
 
   this.myMap;
 
-  var myMapSettings, Point, lineStringGeometry, ilineStringGeometry = 1;
+  var myMapSettings, Point, lineStringGeometry, ilineStringGeometry = 1, save_index, interval;
 
   this.init = function(settings) { // Инициализация настроек
     myMapSettings = settings;
@@ -13,6 +13,13 @@ function GeoLine(){
     ymaps.ready(yandexMapGeoLocationShow);
   };
 
+  this.geoLocationPause = function(){
+    pauseMovePoint();
+  }
+
+  this.geoLocationRestart = function(){
+    restartMovePoint();
+  }
 
   /*-----------------YANDEX FUNCTIONS--------------- */
   function yandexMapInit(){ // Инициализация яндекс карты
@@ -44,7 +51,6 @@ function GeoLine(){
 
   function yandexMapGeoLocationShow(){ // --------SHOW--------------
     points_array = myMapSettings.points_array
-    delay = myMapSettings.delay
 
     Point = new ymaps.Circle([[points_array[0][0], points_array[0][1]], 80]);
 
@@ -60,27 +66,40 @@ function GeoLine(){
     this.myMap.geoObjects.add(Point);
     this.myMap.geoObjects.add(lineStringGeometry);
 
-    movePoint(points_array);
+    movePoint(1);
   }
 
-  function movePoint(points_array){
-    delay = myMapSettings.delay
-    var index = 1;
+  function movePoint(index){
+    points_array = myMapSettings.points_array;
+    delay = myMapSettings.delay;
 
-    var interval = setInterval(
+    if(arrayEmpty(points_array)) return pendingArray();
+
+    interval = setInterval(
       function(){
-        point = points_array[index];
+        point = points_array[index++];
+        save_index = index;
         Point.geometry.setCoordinates(point);
 
         lineStringGeometry.geometry.set(ilineStringGeometry++, point);
         this.myMap.setCenter(point);
-        index++;
+
         if(points_array.length == index){
-          clearInterval(interval)
-          getNewPoints()
+          clearInterval(interval);
+          if(!lineIsEnd()) getNewPoints();
+          else myMapSettings.finishCallback();
         }
-      }, 1000);
+      }, delay);
   }
+
+  function pauseMovePoint(){
+    clearInterval(interval);
+  }
+
+  function restartMovePoint(){
+    movePoint(save_index);
+  }
+
 
   function getNewPoints(){
     $.ajax({
@@ -88,8 +107,23 @@ function GeoLine(){
       url: myMapSettings.url_points,
       dataType: "JSON",
       success: function(data){
-        movePoint(data);
+        myMapSettings.end_of_line = data.end_of_line;
+        myMapSettings.points_array = data.points_array;
+        movePoint(1);
+        console.log(data.point_ids)
       }
     });
+  }
+
+  function lineIsEnd(){
+    return myMapSettings.end_of_line;
+  }
+
+  function pendingArray(){
+    setTimeout(getNewPoints, myMapSettings.step_of_post)
+  }
+
+  function arrayEmpty(arr){
+    return typeof arr[0] == 'undefined'
   }
 };

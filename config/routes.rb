@@ -3,6 +3,9 @@ SvTest::Application.routes.draw do
   resources :geo_lines
   root :to => 'geo_lines#index'
 
+  get 'geo_lines/:id/full_line' => 'geo_lines#show_full_line', as: :geo_line_full
+  get 'geo_lines/:id/show_model' => 'geo_lines#show_model', as: :geo_line_model
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
