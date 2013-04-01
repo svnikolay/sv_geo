@@ -10,7 +10,6 @@
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
 # It's strongly recommended to check this file into your version control system.
-
 ActiveRecord::Schema.define(:version => 20130331110404) do
 
   create_table "geo_lines", :force => true do |t|

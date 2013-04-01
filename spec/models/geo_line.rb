@@ -21,7 +21,11 @@ describe GeoLine do
       GeoLine.last.geo_points.size.should eq 4
     end
 
+<<<<<<< HEAD
   context 'array with all geo_points coordinates'
+=======
+  context 'array with points coordinate'
+>>>>>>> 3b87b1ab57c0687962136a8f422ff7ede91bd824
     it 'should return array coordinate' do
       geo_line = Fabricate(:geo_line)
       geo_points = 2.times.collect{ Fabricate(:geo_point) }
@@ -31,6 +35,7 @@ describe GeoLine do
 
       lat = geo_line.geo_points.first.lat
       lon = geo_line.geo_points.first.lon
+<<<<<<< HEAD
       GeoLine.last.geo_points_coordinates.should eq [[lat, lon], [lat, lon]]
     end
 
@@ -68,5 +73,8 @@ describe GeoLine do
       geo_line.geo_points = geo_points
 
       geo_line.part_coordinates_of_geo_points(Time.now - 1.minute).count.should eq 10
+=======
+      GeoLine.last.array_with_points_coordinate.should eq [[lat, lon], [lat, lon]]
+>>>>>>> 3b87b1ab57c0687962136a8f422ff7ede91bd824
     end
 end
